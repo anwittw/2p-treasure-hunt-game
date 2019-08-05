@@ -111,6 +111,7 @@ function drawEverything() {
   updateScoreBoard();
   updateLives();
   game.checkLives();
+  game.checkPoints();
   game.checkState();
 }
 
